@@ -4,6 +4,7 @@
     "slug": "HabityGame",
     "version": "1.0.0",
     "orientation": "portrait",
+    "entryPoint": "node_modules/expo/AppEntry.js",
     "icon": "./assets/images/icon.png",
     "scheme": "habitygame",
     "userInterfaceStyle": "automatic",
@@ -20,11 +21,11 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
+    
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
+      
       [
         "expo-splash-screen",
         {
