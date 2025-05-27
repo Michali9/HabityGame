@@ -20,6 +20,12 @@ const styles = StyleSheet.create({
     streak: {
         fontSize: 34.2,
         textAlign: 'center',
+    },
+    row:{
+        flexDirection: 'row-reverse',
+        alignItems: 'flex-start',
+        justifyContent: 'space-between',
+        overflow: 'visible',
     }
 });
 

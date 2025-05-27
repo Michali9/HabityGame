@@ -46,7 +46,7 @@ export default function PomodoroTimer(){
         width={8}
         fill={(secondsLeft / (25 * 60)) * 100}
         tintColor={colors.textLight}
-        backgroundColor={colors.textLight}
+        backgroundColor={colors.background}
       >
         {() => (
           <Text style={styles.timer}>{formatTime(secondsLeft)}</Text>

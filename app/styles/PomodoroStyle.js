@@ -3,8 +3,10 @@ import colors from './colors';
 
 const PomodoroStyles = StyleSheet.create({
   container: {
+    width: '50%',
     alignItems: 'center',
     marginVertical: 30,
+    marginRight: 50,
   },
   timer: {
     fontSize: 65,

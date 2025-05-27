@@ -1,7 +1,9 @@
 import { useFonts } from 'expo-font';
 import React, { useState } from 'react';
 import { Text, View } from 'react-native';
+
 import PomodoroTimer from '../components/PomodoroTimer';
+import TaskList from '../components/TaskList';
 
 import styles from '../styles/HomeScreenStyles';
 
@@ -22,7 +24,10 @@ export default function HomeScreen() {
       <Text style={[styles.streak, { fontFamily: 'Assistant' }]}>
         רצף של 5 ימים 🔥
       </Text>
-      <PomodoroTimer/>
+     <View style={styles.row}>
+      <PomodoroTimer />
+      <TaskList />
+    </View>
     </View>
   );
 }
